@@ -5,7 +5,7 @@
 
     "ReplicatedStorage": {
       "SmartBone": {
-        "$path": "src-build"
+        "$path": "src"
       }
     },
 
