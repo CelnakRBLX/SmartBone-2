@@ -747,6 +747,7 @@ function Class:ApplyTransform(BoneTree)
 
 	if ParentBone and BoneParent then
 		if ParentBone.Anchored then -- Anchored and anchors do not rotate
+			
 			if BoneTree.Settings.AnchorsRotate and not self.Anchored then
 				BoneParent.WorldCFrame = CFrame.new(ParentBone.Position) * ParentBone.CalculatedWorldCFrame.Rotation
 			else
